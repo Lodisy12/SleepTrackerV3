@@ -64,6 +64,16 @@ class SleepNightAdapter : RecyclerView.Adapter<SleepNightAdapter.ViewHolder>() {
             5 -> Color.GREEN
             else -> Color.GRAY
         })
+
+        holder.quality.setTextColor(when (item.sleepQuality) {
+            0 -> Color.RED
+            1 -> Color.RED
+            2 -> Color.BLACK
+            3 -> Color.BLACK
+            4 -> Color.GREEN
+            5 -> Color.GREEN
+            else -> Color.GRAY
+        })
     }
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
