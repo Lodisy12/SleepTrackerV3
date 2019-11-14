@@ -56,22 +56,22 @@ class SleepNightAdapter : RecyclerView.Adapter<SleepNightAdapter.ViewHolder>() {
         })
 
         holder.sleepLength.setTextColor(when (item.sleepQuality) {
-            0 -> Color.RED
-            1 -> Color.RED
-            2 -> Color.BLACK
-            3 -> Color.BLACK
-            4 -> Color.GREEN
-            5 -> Color.GREEN
+            0 -> Color.parseColor("#fa0000")
+            1 -> Color.parseColor("#f04d96")
+            2 -> Color.parseColor("#0cb7eb")
+            3 -> Color.parseColor("#0e7796")
+            4 -> Color.parseColor("#14e375")
+            5 -> Color.parseColor("#37fa92")
             else -> Color.GRAY
         })
 
         holder.quality.setTextColor(when (item.sleepQuality) {
-            0 -> Color.RED
-            1 -> Color.RED
-            2 -> Color.BLACK
-            3 -> Color.BLACK
-            4 -> Color.GREEN
-            5 -> Color.GREEN
+            0 -> Color.parseColor("#fa0000")
+            1 -> Color.parseColor("#f04d96")
+            2 -> Color.parseColor("#0cb7eb")
+            3 -> Color.parseColor("#0e7796")
+            4 -> Color.parseColor("#14e375")
+            5 -> Color.parseColor("#37fa92")
             else -> Color.GRAY
         })
     }
