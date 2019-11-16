@@ -1,25 +1,32 @@
-# SleepTrackerRV
+# <name of app>
+
 An Android application that uses a RecyclerView to track and display the user's sleep quality.
 
 Submitted by: Joseph Lawter
 
-Time spent: 3 hours
+Time spent: three hours
 
 ## User Stories
 
 The following **required** functionality is complete:
+
+* [X] Refactor onBindViewHolder
+* [X] Refactor onCreateViewHolder
+* [X] Refresh sleep night data using DiffUtil
+* [X] Add data binding to the adapter.
+* [X] Add binding adapters.
+
+
+The following **additional** features are implemented:
+
+## Previous implemented functionality:
 
 * [X] Replace ScrollView with RecyclerView.
 * [X] Create RecyclerView adapter and ViewHolder for data binding.
 * [X] Display sleep quality list by using recycled ViewHolders.
 * [X] Display sleep quality list using icons instead of text.
 
-
-The following **additional** features are implemented:
-
-* [X] Color coded the sleep quality to make it easier to see at a glance what the sleep quality was.
-
-## Video Walkthrough 
+## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
@@ -27,7 +34,7 @@ Here's a walkthrough of implemented user stories:
 
 ## Notes
 
-I forgot to do commits the first time around and had to start over. Other than that this one was pretty straightfoward. I followed it a lot better than the previous lesson.
+I couldn't get my awesome color coding to work! Very dissapointing, but I just couldn't figure out how to do it with the new data binding.
 
 ## License
 
