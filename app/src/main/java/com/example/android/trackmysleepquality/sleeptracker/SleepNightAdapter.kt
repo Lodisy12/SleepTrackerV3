@@ -45,6 +45,7 @@ class SleepNightAdapter(val clickListener: SleepNightListener) : ListAdapter<Sle
 
         fun bind(clickListener: SleepNightListener, item: SleepNight) {
             binding.sleep = item
+            binding.clickListener = clickListener
             binding.executePendingBindings()
         }
 
