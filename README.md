@@ -2,24 +2,31 @@
 
 An Android application that uses a RecyclerView to track and display the user's sleep quality.
 
-Submitted by: Joseph Lawter
+Submitted by: <name>
 
-Time spent: three hours
+Time spent: <time>
 
 ## User Stories
 
 The following **required** functionality is complete:
+
+* [ ] Change LinearLayout to GridLayout.
+* [ ] Implement Click Listener SleepNight icons.
+* [ ] Add navigation to detail screen when SleepNight icon is clicked.
+* [ ] Add list header.
+* [ ] Modify header to span and display properly on a GridLayout.
+
+The following **additional** features are implemented:
+
+* [ ] List anything else that you can get done to improve the app functionality!
+
+## Previous implemented functionality:
 
 * [X] Refactor onBindViewHolder
 * [X] Refactor onCreateViewHolder
 * [X] Refresh sleep night data using DiffUtil
 * [X] Add data binding to the adapter.
 * [X] Add binding adapters.
-
-
-The following **additional** features are implemented:
-
-## Previous implemented functionality:
 
 * [X] Replace ScrollView with RecyclerView.
 * [X] Create RecyclerView adapter and ViewHolder for data binding.
@@ -30,15 +37,15 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='sleepTrackerWithBindings.gif' title='Sleep Tracker RecyclerView animated demo' alt='Sleep Tracker RecyclerView demo' />
+<img src='name_of_file.gif' title='Sleep Tracker RecyclerView animated demo' alt='Sleep Tracker RecyclerView demo' />
 
 ## Notes
 
-I couldn't get my awesome color coding to work! Very dissapointing, but I just couldn't figure out how to do it with the new data binding.
+Describe any challenges encountered while building the app.
 
 ## License
 
-Copyright 2019 Joseph Lawter
+Copyright 2019 <name>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
