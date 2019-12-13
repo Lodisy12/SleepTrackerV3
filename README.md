@@ -27,13 +27,13 @@ The following **required** functionality is complete:
 * [X] Replace ScrollView with RecyclerView.
 * [X] Create RecyclerView adapter and ViewHolder for data binding.
 * [X] Display sleep quality list by using recycled ViewHolders.
-* [X] Display sleep quality list using icons instead of text.
+* [X] Display sleep quality list using icons instead of text
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='name_of_file.gif' title='Sleep Tracker RecyclerView animated demo' alt='Sleep Tracker RecyclerView demo' />
+<img src='SleepTrackerV3.gif' title='Sleep Tracker RecyclerView animated demo' alt='Sleep Tracker RecyclerView demo' />
 
 ## Notes
 
