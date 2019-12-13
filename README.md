@@ -1,24 +1,20 @@
-# <name of app>
+# Sleep Tracker V3
 
 An Android application that uses a RecyclerView to track and display the user's sleep quality.
 
-Submitted by: <name>
+Submitted by: Joseph Lawter
 
-Time spent: <time>
+Time spent: Thre Hours
 
 ## User Stories
 
 The following **required** functionality is complete:
 
-* [ ] Change LinearLayout to GridLayout.
-* [ ] Implement Click Listener SleepNight icons.
-* [ ] Add navigation to detail screen when SleepNight icon is clicked.
-* [ ] Add list header.
-* [ ] Modify header to span and display properly on a GridLayout.
-
-The following **additional** features are implemented:
-
-* [ ] List anything else that you can get done to improve the app functionality!
+* [X] Change LinearLayout to GridLayout.
+* [X] Implement Click Listener SleepNight icons.
+* [X] Add navigation to detail screen when SleepNight icon is clicked.
+* [X] Add list header.
+* [X] Modify header to span and display properly on a GridLayout.
 
 ## Previous implemented functionality:
 
@@ -41,11 +37,11 @@ Here's a walkthrough of implemented user stories:
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+This one was pretty straightforward.
 
 ## License
 
-Copyright 2019 <name>
+Copyright 2019 Joseph Lawter
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
